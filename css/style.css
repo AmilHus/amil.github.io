@@ -78,7 +78,7 @@ button{
 
 .top__inner{
 	padding: 133px 0 80px;
-	background-image: url('images/bg.svg');
+	background-image: url('/blob/gh-pages/images/bg.svg');
 	background-repeat: no-repeat;
 	background-position: center right;
 }
@@ -127,7 +127,7 @@ button{
 	top: 2px;
 	width: 17px;
 	height: 19px;
-	background-image: url('images/videoplaybtn.svg');
+	background-image: url('/blob/gh-pages/images/videoplaybtn.svg');
 }
 
 .tools{
@@ -146,7 +146,7 @@ button{
 
 .tools__inner{
 	padding-bottom: 90px;
-	background-image: url(/images/toolsbg.svg);
+	background-image: url(/blob/gh-pages/images/toolsbg.svg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: cover;
@@ -242,11 +242,11 @@ button{
 	left: 0;
 	width: 35px;
 	height: 35px;
-	background-image: url(/images/listimg.svg);
+	background-image: url('/blob/gh-pages/images/listimg.svg');
 }
 
 .team{
-	background-image: url('/images/teambg.svg');
+	background-image: url('/blob/gh-pages/images/teambg.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
