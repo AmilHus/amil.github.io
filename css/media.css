@@ -121,6 +121,10 @@
 }
 
 @media (max-width: 524px){
+	.body{
+		overflow-x: hidden;
+	}
+	
 	.header__inner{
 		display:block;
 		
