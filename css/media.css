@@ -163,7 +163,7 @@
 	}
 	.menu__list-style{
 		position: relative;
-		top: -100px;
+		top: -120px;
 		z-index: 999;
 		background-color: white;
 		max-width: 100%;
