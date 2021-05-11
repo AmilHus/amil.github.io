@@ -149,7 +149,7 @@
 		right: 0;
 		background-color: #fff;
 		text-align: center;
-		transform: translateY(300%);
+		transform: translateY(-300%);
 		transition-duration: 0.5s;
 		height: 100%;
 		
