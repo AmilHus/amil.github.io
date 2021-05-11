@@ -78,7 +78,7 @@ button{
 
 .top__inner{
 	padding: 133px 0 80px;
-	background-image: url('/images/bg.svg');
+	background-image: url('images/bg.svg');
 	background-repeat: no-repeat;
 	background-position: center right;
 }
