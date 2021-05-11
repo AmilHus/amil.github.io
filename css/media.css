@@ -141,8 +141,7 @@
 		top: 25px;
 	}
 	.menu__list{
-		z-index: -999 ;
-		display: block;
+		display: none;
 		position: absolute;
 		left:0;
 		right: 0;
@@ -155,7 +154,6 @@
 	}
 
 	.menu__list.menu__list--active{
-		z-index: 999 ;
 		display: block;
 		transition-duration: 1s;
 		left: 0;
