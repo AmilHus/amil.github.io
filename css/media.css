@@ -127,6 +127,7 @@
 	
 	.header__inner{
 		display:block;
+		z-index:20;
 		
 	}
 
@@ -141,12 +142,14 @@
 		top: 25px;
 	}
 	.menu__list{
-		display: none;
+		z-index:19;
+		display: block;
 		position: absolute;
 		left:0;
 		right: 0;
 		background-color: #fff;
 		text-align: center;
+		transform: translateY(300%);
 		transition-duration: 0.5s;
 		height: 100%;
 		
@@ -155,8 +158,9 @@
 
 	.menu__list.menu__list--active{
 		display: block;
+		transform: translateY(0%);
 		transition-duration: 1s;
-		left: 0;
+		
 	}
 
 	.menu__list-link{
