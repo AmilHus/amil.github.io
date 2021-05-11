@@ -141,20 +141,22 @@
 		top: 25px;
 	}
 	.menu__list{
+		z-index: 999 ;
 		display: block;
 		position: absolute;
-		left: 0;
 		right: 0;
 		background-color: #fff;
 		text-align: center;
-		transform: translateX(300%);
-		transition-duration: 1s;
+		transition-duration: 0.5s;
 		height: 100%;
+		
 
 	}
 
 	.menu__list.menu__list--active{
-		transform: translateX(0%);
+		display: block;
+		transition-duration: 1s;
+		left: 0;
 	}
 
 	.menu__list-link{
