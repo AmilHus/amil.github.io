@@ -127,7 +127,7 @@ button{
 	top: 2px;
 	width: 17px;
 	height: 19px;
-	background-image: url('/images/videoplaybtn.svg');
+	background-image: url('images/videoplaybtn.svg');
 }
 
 .tools{
